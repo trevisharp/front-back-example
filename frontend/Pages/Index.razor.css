@@ -1,0 +1,18 @@
+.add-form {
+    margin: 5vh;
+    padding: 2vh;
+    border: 2px;
+    border-radius: 1%;
+    border-color: lightgray;
+    background-color: #f0f0f0;
+    border-style: solid;
+    font-family: 'Inconsolata', monospace;
+}
+
+.add-button {
+    margin-top: 15px;
+}
+
+.feito {
+    text-decoration: line-through;
+}
