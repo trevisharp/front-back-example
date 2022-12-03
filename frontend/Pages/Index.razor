@@ -1,9 +1,19 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>ToDoList</PageTitle>
 
-<h1>Hello, world!</h1>
+<BSLabel>To do List:</BSLabel>
 
-Welcome to your new app.
+<BSInput 
+    placeholder="Escreva seu item a fazer..."
+    InputType="InputType.TextArea" 
+    Value="@("")" />
+    
+<BSLabel>Para:</BSLabel>
+<BSInput
+    InputType="InputType.DateTimeLocal" 
+    Value="@DateTime.Now" />
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<BSButton Color="BSColor.Dark">
+    Adicionar
+</BSButton>
